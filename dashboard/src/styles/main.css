@@ -1,0 +1,126 @@
+.personalDetail {
+  font-family: 'Averia Serif Libre', cursive;
+  margin-bottom: 2rem;
+  position: relative;
+  top: 3rem;
+}
+
+.personalDetail form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  max-width: 600px;
+}
+
+.personalDetail form h4 {
+  margin-bottom: -0.5rem;
+  margin-top: 2rem;
+}
+
+.personalDetail input {
+  font-size: 18px;
+  padding: 0.5rem 1rem;
+  margin: 1rem 0;
+  border: none;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  border-bottom: 1px solid #8a5d59;
+}
+
+.personalDetail input:focus {
+  border-bottom: 1px solid #f3efca;
+}
+
+.personalDetail div {
+  margin: 1rem 0;
+}
+
+.personalDetail button {
+  padding: 1rem 2rem;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-left: auto;
+  color: white;
+  background: #415939;
+  border: none;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.personalDetail button:hover {
+  background: #8a5d59;
+}
+
+.education, .application, .hobbies, .expertise,
+.training, .memberships, .languages, .reference,
+.skills, .summary, .experience, .manuscript {
+  position: relative;
+  font-family: 'Averia Serif Libre', cursive;
+  top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.education > div, .application > div, .hobbies > div, .expertise > div,
+.training > div, .memberships > div, .languages > div, .reference > div,
+.skills > div, .summary > div, .experience > div, .manuscript > div {
+  max-width: 600px;
+}
+
+.education > div h4, .application > div h4, .hobbies > div h4, .expertise > div h4,
+.training > div h4, .memberships > div h4, .languages > div h4, .reference > div h4,
+.skills > div h4, .summary > div h4, .experience > div h4, .manuscript > div h4 {
+  margin-bottom: 1rem;
+}
+
+.education > div button, .application > div button, .hobbies > div button, .expertise > div button,
+.training > div button, .memberships > div button, .languages > div button, .reference > div button,
+.skills > div button, .summary > div button, .experience > div button, .manuscript > div button {
+  display: block;
+  padding: 1rem 2rem;
+  margin-left: auto;
+  margin-top: 2rem;
+  color: white;
+  background: #415939;
+  border: none;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.education > div button:hover, .application > div button:hover, .hobbies > div button:hover, .expertise > div button:hover,
+.training > div button:hover, .memberships > div button:hover, .languages > div button:hover, .reference > div button:hover,
+.skills > div button:hover, .summary > div button:hover, .experience > div button:hover, .manuscript > div button:hover {
+  background: #8a5d59;
+}
+
+.education input, .application input, .hobbies input, .expertise input,
+.training input, .memberships input, .languages input, .reference input,
+.skills input, .summary input, .experience input, .manuscript input {
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  font-size: 18px;
+}
+
+.education .percentage, .application .percentage, .hobbies .percentage, .expertise .percentage,
+.training .percentage, .memberships .percentage, .languages .percentage, .reference .percentage,
+.skills .percentage, .summary .percentage, .experience .percentage, .manuscript .percentage {
+  margin-bottom: -0.5rem;
+  margin-top: 2rem;
+}
+
+.education progress, .application progress, .hobbies progress, .expertise progress,
+.training progress, .memberships progress, .languages progress, .reference progress,
+.skills progress, .summary progress, .experience progress, .manuscript progress {
+  display: block;
+  padding: 0.7rem 0;
+  width: 400px;
+}
+/*# sourceMappingURL=main.css.map */
